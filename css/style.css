@@ -118,15 +118,12 @@ article p,
     min-width: 300px;
     max-width: 45vw;
     min-height: 400px;
-    /* Add minimum height */
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    /* Change to flex-start */
     gap: 20px;
-    /* Add gap between articles */
 }
 
 section {
@@ -134,7 +131,6 @@ section {
     max-width: 45vw;
     min-height: 400px;
     max-height: 80vh;
-    /* Increase max height */
 }
 
 #ad {
