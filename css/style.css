@@ -110,10 +110,6 @@ article p,
     width: 100vw;
 }
 
-#main section {
-    margin-top: 10px;
-}
-
 #articles {
     min-width: 300px;
     max-width: 45vw;
@@ -140,7 +136,7 @@ section {
     max-height: 90vh;
 
     padding: 15px;
-    margin: -15px;
+    margin: 15px;
 
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
