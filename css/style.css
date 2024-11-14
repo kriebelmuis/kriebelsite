@@ -75,9 +75,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-a:hover {
     transition: transform 0.2s ease-in-out;
 }
 
@@ -342,6 +339,13 @@ button {
     font-family: "Inter";
 
     color: black;
+    font-size: 1em;
+    transition: transform 0.05s ease-out;
+}
+
+button:active {
+    transition: transform 0.1s ease-in;
+    transform: scale(0.95);
 }
 
 button:hover {
