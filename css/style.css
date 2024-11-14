@@ -69,10 +69,6 @@ nav a p {
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:hover {
     text-decoration: underline;
     transition: transform 0.2s ease-in-out;
@@ -82,15 +78,18 @@ nav a:hover {
     transform: scale(1.05);
 }
 
-h2 {
+article h2 {
     font-family: "Inter";
     font-weight: bolder;
+
+    text-decoration: dotted underline;
 }
 
 h5,
 a {
     margin: 0;
     margin-left: 5px;
+    text-decoration: none;
 
     font-family: "Inter";
     font-weight: bold;
@@ -180,7 +179,8 @@ article {
     padding-left: 15px;
 }
 
-article a {
+article a,
+aside a {
     color: blue;
 }
 
@@ -275,6 +275,8 @@ footer p {
 .subPageContainer h2 {
     color: black;
     margin-bottom: 15px;
+
+    text-decoration: underline;
 }
 
 .contactForm {
