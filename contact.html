@@ -65,12 +65,10 @@
         const textarea = document.getElementById('message');
         
         textarea.addEventListener('input', function() {
-            // Only adjust if there's content
             if (this.value.length) {
                 this.style.height = '30px';
                 this.style.height = this.scrollHeight + 'px';
             } else {
-                // Reset to initial height if empty
                 this.style.height = '30px';
             }
         });
